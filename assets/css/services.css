@@ -1,0 +1,21 @@
+.services{
+    background-color: var(--dark-bg-3);
+}
+
+.services_tables >table:nth-child(1){
+    /*fallback for old browsers*/
+    background: #171a24;
+      /*chrome 10-25, safari 5.1-6*/
+    background: -webkit-linear-gradient(to bottom, #171a24, rgba(23,26,36,0.2));
+    /*W3C, IE+/ Edge, Firefox 16+, Chrome26+, Opera12+, safari 7+*/
+    background: linear-gradient(to bottom, #171a24, rgba(23,26,36,0.2));
+}
+
+.services_tables >table:nth-child(2){
+    /*fallback for old browsers*/
+    background: #090b13;
+      /*chrome 10-25, safari 5.1-6*/
+    background: -webkit-linear-gradient(to bottom, #090b13, rgba(9,11,19,0.2));
+    /*W3C, IE+/ Edge, Firefox 16+, Chrome26+, Opera12+, safari 7+*/
+    background: linear-gradient(to bottom, #090b13, rgba(9,11,19,0.2));
+}
